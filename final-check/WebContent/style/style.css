@@ -1,0 +1,198 @@
+header	{	 
+	position: absolute;
+	height: 13%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	background: #2165ad;
+	background-image: url("https://image.shutterstock.com/image-vector/old-cinema-background-vector-illustration-260nw-770497021.jpg");
+	font-size: 35px;
+}
+
+	header div a{
+		color: #f9fff2;
+	}
+
+	#movie-text	{
+		position: fixed;
+		width:80px;
+		height: auto;	
+		top: 0px;
+		right: 130px;
+		text-align: left;
+		font-size: 16px;
+		margin: 40px;
+		-webkit-transition: width 2s;
+		transition: width 2s;
+	}
+	
+	#movie-text:hover	{
+		width: 50px;
+	}
+
+	#favorite-text	{
+		position: fixed;
+		width:80px;
+		height: auto;	
+		top: 0px;
+		right: 0px;
+		text-align: left;
+		font-size: 16px;
+		margin: 40px;
+		-webkit-transition: width 2s;
+		transition: width 2s;
+	}
+	
+	#favorite-text:hover	{
+		width: 50px;
+	}
+			
+	#logo	{
+		height: 70%;
+		width: 6%;
+		margin: 8px 0px 5px -58px;
+	}
+
+	#logoname	{	
+		padding: 5px;
+		float: left;
+		color: #ffffff;
+		margin: 20px;
+		width: 18%;	
+	}
+	
+	background-image:hover	{
+		opacity: 0;
+	}
+
+section	{
+	position: fixed;
+	top: 12%;
+	left: 0px;
+	height: 76%;
+	width: 110%;
+	text-align: left;
+	background: #ffde66;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfVTrxcTpXNDUOyflOuo_rWO6e_c2sapj6LKvhvXBv9O3x2nF1");	
+}
+	
+	section.table,td,th {
+		height: 35px;
+		text-align: center;	
+		padding: 3px;
+		width: 120px;
+}
+
+	section a	{
+		color:	#090a0a;
+	}
+
+	input[type = "checkbox"]	{
+		width: 25px;
+		height: 25px; 
+		border-style: 1px solid;
+	}
+
+	input[type = "radio"]	{
+		width: 20px;
+		height: 20px;
+	}
+	
+	input[type = "text"]	{
+		border-radius: 5px;
+		border-bottom-color: #333333;
+		border-right-color: #333333;
+	
+	}
+	
+	.system-exception {
+		font-size: 19px;
+		color: #ff0000;
+	}
+	
+	.notification	{
+		font-size: 19px;
+		color: #1dad4b;
+	}	
+
+	.bolding	{
+		font-weight: bold;
+	}
+
+	#edit-movie-table td	{
+		text-align: left;
+		padding: 5px;
+		color: #393a3b;
+		height: 20px;
+	}
+	
+	#edit-status-text	{
+		position: relative;
+		top: 22%;
+		left: 18%;
+		color: #1dad4b;
+		font-size: 18px;
+		font-weight: bold;	
+	}
+	
+	#empty-favorite	{
+		position: relative;
+		left: 18%;
+		top: 22%;
+		color: #a8a7a5;
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	#empty-favorite a	{
+		color: #0e8ce6;
+	}
+
+	#table-align {
+		position: absolute;
+		top: 15%;
+		left: 18%;	
+	}
+
+	#table-left {
+		text-align: left;
+		width: 250px;
+	}
+
+	
+	#table-right {
+		text-align: right;
+	}	
+
+	#table-left-only	{
+		text-align: left;
+	}
+
+	#save	{
+		color: #ffffff;
+		background: #5587d9;
+		height: 50px;
+		width: 150px;
+		border-radius: 14px;
+		font: 20px bold;		
+	}
+
+	#save:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+	
+footer	{
+	position: absolute;
+	height: 13%;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	color: #b5b7ba;
+	background: #020303;
+	background-image: url("http://sf.co.ua/12/12/wallpaper-1097885.jpg");
+}
+	#foot-text {
+		margin: 40px 0px 0px 10px;
+		font-size: 20px;
+	}
+	
